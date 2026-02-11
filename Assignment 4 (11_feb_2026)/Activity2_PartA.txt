@@ -1,0 +1,15 @@
+1. Explain how stack is used in function calls (Call Stack).
+   In function calls, each function call is stored in a call stack along with its local variables and return address.
+   When a function completes, it is popped from the stack and control returns to the previous function.
+
+2. How is stack used in Undo/Redo operations?
+   In Undo/Redo operations, performed actions are pushed onto a stack.
+   Undo pops the last action, and Redo pushes the action back to reapply it.
+
+3. Why is stack useful in expression evaluation?
+   Stack is useful in expression evaluation to store operands and operators in correct order.
+   It helps maintain precedence and makes evaluation of postfix and prefix expressions easier.
+
+4. Differentiate between Infix, Prefix, and Postfix expressions.
+   Infix has operator between operands like A+B, Prefix has operator before operands like +AB.
+   Postfix has operator after operands like AB+ and does not require brackets for evaluation.

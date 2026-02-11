@@ -1,0 +1,7 @@
+Activity 1 Conclusion
+
+In this activity, we implemented stack using both array and linked list concepts.
+We understood basic stack operations like push, pop and peek.
+We also learned about stack overflow and underflow conditions.
+The implementation helped in understanding the LIFO principle clearly.
+This activity strengthened our understanding of stack fundamentals and its working mechanism.

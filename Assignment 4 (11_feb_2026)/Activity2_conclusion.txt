@@ -1,0 +1,7 @@
+Activity 2 Conclusion
+
+In this activity, we applied stack in solving real problems like balanced parentheses and infix to postfix conversion.
+We also used stack to reverse array elements efficiently.
+These problems showed the practical importance of stack in expression handling.
+We learned how stack helps in maintaining order and precedence.
+This activity improved our problem solving skills using stack data structure.

@@ -1,0 +1,7 @@
+Push operation takes O(1) time because the element is inserted at the top without shifting any other elements.
+
+Pop operation takes O(1) time because the top element is removed directly.
+
+Peek operation takes O(1) time since it only accesses the top element without modifying the stack.
+
+Balanced Parentheses Check takes O(n) time because we traverse the entire expression once and each character is pushed and popped at most one time.

@@ -1,0 +1,39 @@
+Part B Balanced Parentheses Algorithm
+
+1. Start
+2. Create an empty stack
+3. Traverse each character of the expression
+4. If character is opening bracket (, {, [ then push into stack
+5. If character is closing bracket ), }, ]
+   a. If stack is empty return Not Balanced
+   b. Pop top element and check if it matches the closing bracket
+   c. If not matching return Not Balanced
+6. After traversal, if stack is empty return Balanced
+7. Else return Not Balanced
+8. Stop
+
+Part C Infix to Postfix Algorithm
+
+1. Start
+2. Create an empty stack for operators
+3. Create an empty string for result
+4. Traverse each character of the infix expression
+5. If operand, add to result
+6. If opening bracket (, push to stack
+7. If closing bracket ), pop from stack and add to result until opening bracket is found, then remove opening bracket
+8. If operator,
+   a. While stack is not empty and precedence of current operator is less than or equal to top of stack, pop from stack and add to result
+   b. Push current operator into stack
+9. After traversal, pop all remaining operators from stack to result
+10. Print result
+11. Stop
+
+Part D Reverse Array Using Stack Algorithm
+
+1. Start
+2. Input array elements
+3. Create an empty stack
+4. Push all array elements into stack
+5. Pop elements from stack one by one and store back into array
+6. Print reversed array
+7. Stop
